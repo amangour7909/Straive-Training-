@@ -1,0 +1,30 @@
+sudo su
+sudo apt-get -y update/sudo apt update
+sudo apt install apache2
+press y after that to continue
+sudo systemctl status apache2
+Q to exit
+curl localhost -> to connect with the browser
+pwd -> path working directory
+cd /var/www/html
+ls
+cat index.html
+rm index.html -> to remove html file
+nano index.html
+Preety Singh
+12:09 PM
+<html>
+<head>
+<title> Welcome to my web server </title>
+</head>
+<body>
+ <h1> Home Page </h1>
+ <p> This is my first page </p>
+</body>
+</html>
+Preety Singh
+12:11 PM
+ctrl+x -> exit
+press y
+cat index.html
+go to browser and add your public ip of vm in url bar
