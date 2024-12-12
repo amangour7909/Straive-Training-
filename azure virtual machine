@@ -1,3 +1,9 @@
+#Azure Tutorial -
+https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu
+
+#putty
+https://www.putty.org/
+
 sudo su
 sudo apt-get -y update/sudo apt update
 sudo apt install apache2
